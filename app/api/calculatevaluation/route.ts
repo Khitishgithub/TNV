@@ -114,7 +114,7 @@ function scheduleFollowUpEmail(
   businessIndividualName: string
 ) {
   // Schedule email to be sent after 5 minutes
-  const scheduledTime = new Date(Date.now() + 5 * 60 * 1000); // 5 minutes from now
+  const scheduledTime = new Date(Date.now() + 1 * 60 * 1000); // 1 minutes from now
 
   cron.schedule(
     scheduledTime.toISOString(),
