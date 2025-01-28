@@ -140,7 +140,7 @@ import React from "react";
 
 const WorkingValuationTool = () => {
   return (
-    <div className="min-h-[400px] w-full bg-black flex flex-col items-center justify-center px-6 py-16 font-['helveticanowtext-black-demo'] ">
+    <div className="min-h-[400px] w-full bg-black flex flex-col items-center justify-center px-6 font-['helveticanowtext-black-demo'] ">
       <div className="max-w-3xl">
         <p className="text-white text-lg lg:text-2xl font-semibold mb-6 leading-tight font-['helveticanowtext-black-demo']">
           Every business has a story, and understanding its value is a key part
