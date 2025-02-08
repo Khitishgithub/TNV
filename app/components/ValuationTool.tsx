@@ -15,7 +15,7 @@ const ValuationTool = () => {
       <div className="relative w-full">
         <div className="w-full relative">
           <img
-            className="w-full min-h-[200px]"
+            className="w-full min-h-[250px]"
             src="images/Valuation.png"
             alt="Valuation Tool"
           />
