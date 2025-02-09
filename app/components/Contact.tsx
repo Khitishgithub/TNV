@@ -350,10 +350,11 @@ const Contact: React.FC = () => {
       <section id="contact-section" className="...">
         <ThemeProvider theme={theme}>
           <div className="bg-black font-['helveticanowtext-black-demo']">
-            <h2 className="text-2xl md:text-4xl  text-white text-center mb-6 animate-fade-in font-['helveticanowtext-black-demo']">
-              Start with some key details
-            </h2>
+            
             <Box sx={{ maxWidth: 1000, mx: "auto", p: 3 }}>
+            <div className="text-xl md:text-4xl text-white text-center mt-6 animate-fade-in font-['helveticanowtext-black-demo'] mb-2 lg:mb-6">
+              Start with some key details
+            </div>
               <QuestionCard
                 number="*"
                 question="Basic Information"
